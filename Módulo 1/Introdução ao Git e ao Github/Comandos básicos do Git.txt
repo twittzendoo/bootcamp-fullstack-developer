@@ -1,0 +1,21 @@
+Comandos iniciais no Windows — Git
+
+cd (Entra em uma pasta)
+cd .. (Retrocede um nível de pasta)
+dir (Lista todas as pastas) 
+mkdir (Cria uma pasta)
+del (Deleta um arquivo)
+rmdir = (Deleta um diretório)
+cls = (Limpa a tela dos comandos)
+tab = (Acha uma pasta)
+
+
+Outros comandos no Windows — Git
+
+git clone (Clona um repositório para a máquina)
+git init (Inicia um repositório vazio)
+git config --global user.email "email" e git config --global user.name "user" (Configuração inicial)
+git add * ou git add . (Adicionar as alterações/adições)
+git commit -m "menagem" ("Commitar")
+git push origin master/main (Transferir as alterações/adições para o Github)
+
