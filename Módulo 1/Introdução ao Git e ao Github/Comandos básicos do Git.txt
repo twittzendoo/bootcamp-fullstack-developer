@@ -16,6 +16,6 @@ git clone (Clona um repositório para a máquina)
 git init (Inicia um repositório vazio)
 git config --global user.email "email" e git config --global user.name "user" (Configuração inicial)
 git add * ou git add . (Adicionar as alterações/adições)
-git commit -m "menagem" ("Commitar")
+git commit -m "mensagem" ("Commitar")
 git push origin master/main (Transferir as alterações/adições para o Github)
 
