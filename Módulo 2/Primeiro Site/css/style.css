@@ -1,0 +1,61 @@
+body {
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    width: 100% !important;
+}
+
+#titulo {
+    color:black;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    color: crimson;
+    font-size: 25px;
+} 
+
+.subtitulo2 {
+    color: brown;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background-color: #FFD700;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.post_sj {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_imagem {
+    margin-bottom: 15px;
+}
+
+a {
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contatos {
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.contatos li a {
+    color: rgb(124, 82, 201);
+    text-decoration: none;
+    
+}
