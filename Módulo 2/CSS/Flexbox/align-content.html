@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>align-content</title>
+    <style>
+        .container {
+            display: flex;
+            height: 400px;
+            max-width: 300px;
+            flex-wrap: wrap;
+            border: 5px solid black;
+        }
+
+        .item {
+            background-color: aquamarine;
+            padding: 0 5px;
+            flex: 1;
+            text-align: center;
+            color: black;
+            margin: 5px;
+            border: 1px solid black;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Stretch (padrão)</p>
+    <div class="container stretch">
+        <div class="item">gosto tanto da voz da pessoa</div>
+        <div class="item">this is me praying that this was the very first page not where the storyline ends</div>
+        <div class="item">hoje eu tô estudando assim</div>
+        <div class="item">olá</div>
+        <div class="item">consegui compartilhar um vídeo de uma pessoa que me deu block, nem sabia que era possível        </div>
+        <div class="item">o fogo no rabo do morador de campina grande</div>
+        <div class="item">agradeço todos os dias</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">gosto tanto da voz da pessoa</div>
+        <div class="item">this is me praying that this was the very first page not where the storyline ends</div>
+        <div class="item">hoje eu tô estudando assim</div>
+        <div class="item">olá</div>
+        <div class="item">consegui compartilhar um vídeo de uma pessoa que me deu block, nem sabia que era possível        </div>
+        <div class="item">o fogo no rabo do morador de campina grande</div>
+        <div class="item">agradeço todos os dias</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">gosto tanto da voz da pessoa</div>
+        <div class="item">this is me praying that this was the very first page not where the storyline ends</div>
+        <div class="item">hoje eu tô estudando assim</div>
+        <div class="item">olá</div>
+        <div class="item">consegui compartilhar um vídeo de uma pessoa que me deu block, nem sabia que era possível        </div>
+        <div class="item">o fogo no rabo do morador de campina grande</div>
+        <div class="item">agradeço todos os dias</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">gosto tanto da voz da pessoa</div>
+        <div class="item">this is me praying that this was the very first page not where the storyline ends</div>
+        <div class="item">hoje eu tô estudando assim</div>
+        <div class="item">olá</div>
+        <div class="item">consegui compartilhar um vídeo de uma pessoa que me deu block, nem sabia que era possível        </div>
+        <div class="item">o fogo no rabo do morador de campina grande</div>
+        <div class="item">agradeço todos os dias</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">gosto tanto da voz da pessoa</div>
+        <div class="item">this is me praying that this was the very first page not where the storyline ends</div>
+        <div class="item">hoje eu tô estudando assim</div>
+        <div class="item">olá</div>
+        <div class="item">consegui compartilhar um vídeo de uma pessoa que me deu block, nem sabia que era possível        </div>
+        <div class="item">o fogo no rabo do morador de campina grande</div>
+        <div class="item">agradeço todos os dias</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">gosto tanto da voz da pessoa</div>
+        <div class="item">this is me praying that this was the very first page not where the storyline ends</div>
+        <div class="item">hoje eu tô estudando assim</div>
+        <div class="item">olá</div>
+        <div class="item">consegui compartilhar um vídeo de uma pessoa que me deu block, nem sabia que era possível        </div>
+        <div class="item">o fogo no rabo do morador de campina grande</div>
+        <div class="item">agradeço todos os dias</div>
+    </div>
+
+</body>
+</html>
