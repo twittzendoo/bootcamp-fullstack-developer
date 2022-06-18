@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-self</title>
+    <style>
+        .flex-container {
+            display: flex;
+            border: 5px solid;
+            max-width: 350px;
+        }
+
+        .align-center {
+            align-items: center;
+        }
+
+        .item {
+            background-color: blueviolet;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .coluna {
+            flex-direction: column;
+        }
+
+        .center {
+            align-self: center;
+        }
+
+        .start {
+            align-self: flex-start;
+        }
+
+        .end {
+            align-self: flex-end;
+        }
+
+        .baseline {
+            align-self: baseline;
+        }
+
+        .stretch {
+            align-self: stretch;
+        }
+
+        .auto {
+            align-self: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <p>Padrão (auto obedece do container)</p>
+    <section class="flex-container align-center">
+        <div class="item auto">AAA</div>
+        <div class="item auto">456</div>
+        <div class="item auto">Gaga dona do pop e dona do jazz</div>
+        <div class="item auto">Música POP</div>
+    </section>
+
+    <p>Misto</p>
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">456</div>
+        <div class="item stretch">Gaga dona do pop e da música</div>
+        <div class="item end">Música</div>
+    </section>
+
+    <h1>Column</h1>
+    <p>Padrão</p>
+    <section class="flex-container align-center coluna">
+        <div class="item auto">AAA</div>
+        <div class="item auto">456</div>
+        <div class="item auto">Gaga dona do pop e dona do jazz</div>
+        <div class="item auto">Música POP</div>
+    </section>
+
+    <p>Misto</p>
+    <section class="flex-container coluna">
+        <div class="item center">AAA</div>
+        <div class="item start">456</div>
+        <div class="item stretch">Gaga dona do pop e da música</div>
+        <div class="item end">Música</div>
+    </section>
+
+</body>
+</html>
