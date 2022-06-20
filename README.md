@@ -1,2 +1,2 @@
 # Repositório com a evolução do Santander Bootcamp Fullstack Developer
-Anotações básicas dos módulos do Santander Bootcamp Fullstack Developer 2022.
+Anotações, desafios e projetos dos módulos do Santander Bootcamp Fullstack Developer 2022.
