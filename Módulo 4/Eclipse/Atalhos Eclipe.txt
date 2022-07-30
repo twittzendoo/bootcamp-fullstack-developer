@@ -1,0 +1,50 @@
+Acesso rápido
+Windows/Linux: Ctrl + 3
+
+Executar testes unitários
+Windows/Linux: Alt + Shift + X, T
+
+Executar uma classe
+Windows/Linux: Alt + Shift + X, J
+
+Navegar entre arquivos abertos
+Windows/Linux: Ctrl + F6
+
+Pesquisar e navegar em arquivos abertos
+Windows/Linux: Ctrl + E
+
+Abrir o código de um arquivo (recurso)
+Windows/Linux: Ctrl + Shift + R
+
+Abrir o código de um tipo
+Windows/Linux: Ctrl + Shift + T
+
+Corrigir código rapidamente
+Windows/Linux: Ctrl + 1
+
+Mover linhas pelo código-fonte
+Windows/Linux: Alt + Seta Up/Down
+
+Abrir código em tela cheia
+Windows/Linux e OS X: Ctrl + M
+
+Excluir linha de código
+Windows/Linux: Ctrl + D
+
+Fechar todas as janelas de edição
+Windows/Linux: Ctrl + Shift + W
+
+Renomear refatorando
+Windows/Linux: Alt + Shift + R
+
+Organizar importações
+Windows/Linux: Ctrl + Shift + O
+
+Formatar código-fonte
+Windows/Linux: Ctrl + Shift + F
+
+Criar um novo arquivo
+Windows/Linux: Ctrl + N
+
+Completar código
+Windows/Linux e OS X: Ctrl + Space
