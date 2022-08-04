@@ -1,0 +1,9 @@
+Criar o projeto com Spring Initializr
+Após a instalação das extensões vamos criar um projeto de exemplo Spring Boot usando o Spring Initializr para o vscode. Mais uma vez abra a paleta de comandos e digite: "spring" e selecione a opção: "Spring Initializr: Generate a Maven Project"
+
+Selecione a linguagem Java
+Coloque no Group Id algo como: br.com.danielpadua
+Artifact Id algo como: java-spring-vscode-example
+Selecione a versão do Spring-Boot mais atual e estável (No momento da escrita deste guia é a: 2.1.4)
+Não selecione nenhuma dependência, apenas aperte o Enter
+Selecione uma pasta para abrigar o projeto, sugiro que possua uma pasta chamada "projetos" na raiz do diretório do usuário
